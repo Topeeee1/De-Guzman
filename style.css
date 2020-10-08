@@ -1,0 +1,199 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f1923
+       ;
+}
+
+.bar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+ 
+    margin-top: -30px;
+    margin-left: -10px ;
+    margin-right: -10px;
+}
+.content{
+    display: flex;
+   
+}
+#left{
+    height: 75px;
+    width: 80px;
+    overflow: hidden;
+}
+#left-content .logo .left-logo{
+    width: 160px;
+    height: 150px;
+    
+    transform: scale(0.5);
+    position: absolute;
+    top: -35px;
+    left: -40px;
+   
+    overflow: hidden;
+}
+
+#left-content .logo .left-logo img {
+    transition: transform .5s ease-in-out;
+}
+#left-content .logo .left-logo img:hover { 
+    transform: translate3d(0px,-2400px,0px)
+}
+
+
+#center {
+    width: 100%;
+    background-color:black;
+}
+#center-content .home{
+    
+    color: white;
+}
+
+.bars {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+ 
+#icons
+{
+
+    float: left;
+    border-right: 1px solid #bbb;
+}
+#icons:last-child {
+    border-right: none;
+  }
+#icons a {
+    font-weight: bold;
+    border: black ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+  }
+  .active {
+    background-color: #f46655;
+  }
+  #icons:hover{
+
+    background-color: #0f1923;
+}
+
+
+.cover{
+    width: 100%;
+   background-image: url(coverphoto.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: inline-block;
+   padding-top: 10%;
+ 
+}
+.coverphoto{
+    padding-top: 5%;
+   text-align: center;
+  color: white;
+  padding-bottom: 5%;
+}
+.title{
+display: block;
+
+}
+.webprogrammer{
+    font-size: 200%;
+}
+.name{
+
+    font-weight: bold;
+    font-size: 400%;
+}
+.knowme
+{
+    margin: 0 auto;
+    margin-top: 10%;  
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 1px solid gray;
+    display: block;
+    background-color: #f46655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.knowme a{
+    text-decoration: none;
+    font-weight: bold;
+    border: black ;
+    display: block;
+    color: white;
+}
+.knowme:hover{
+
+    background-color: #0f1923;
+}
+
+.nickname{
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.details{
+    float: left;
+    width: 70%;
+
+
+    margin: 2%;
+
+    padding: 10px 10px 10px 10px;
+    background-color: #f4f4f4;
+    color: gray;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+
+}
+.profilepic{
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+
+  
+}
+.profilepic img{
+ 
+    margin-top: 45px;
+     width: 100%;  
+    height: 100%;
+    top: -35px;
+   
+}
+
+.data{
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 100%;
+    
+   display: inline-block;
+   text-align: justify;
+   line-height: 180%;
+}
+
+#foot{
+    padding: 100px auto ;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    margin-top: 5%;
+}
